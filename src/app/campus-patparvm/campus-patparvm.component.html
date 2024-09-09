@@ -1,0 +1,22 @@
+
+<h3 [ngStyle]="{color: 'rgb(232, 78, 78'}">Sheridan College - Select a Campus to View Address</h3>
+
+<mat-form-field>
+    <mat-label>Select Campus</mat-label>
+
+    <mat-select [(value)]="campus">
+        <mat-option *ngFor="let cam of campuses" [value]="cam">
+            {{ cam }}
+        </mat-option>
+    </mat-select>
+</mat-form-field>
+
+<hr>
+
+<div *ngIf="campus" [ngStyle]="{color: 'rgb(232, 78, 78)', fontWeight: 600}">
+    
+    <p>{{ campus + " Campus" | uppercase }}</p>
+    
+    <p [innerHTML]="getAddress(campus).replace('\n', '<br><br>')"></p>
+
+</div>

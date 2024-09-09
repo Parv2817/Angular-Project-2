@@ -1,0 +1,21 @@
+{
+	"a2Personal" : {
+		"myFullName" : "Parv Mukeshkumar Patel",
+		"sheridanID" : 991718111,
+		"sheridanLogin" : "patparvm",
+		"sheridanProgram" : "Computer Programming",
+		"sheridanEmail" : "patparvm@sheridancollege.ca"
+	},	
+	"myBooks": [
+		{"authorName": "George Orwell", "bookTitle": "1984", "published": 1949},
+		{"authorName": "J.K. Rowling", "bookTitle": "Harry Potter and the Philosopher's Stone", "published": 1997},
+		{"authorName": "Harper Lee", "bookTitle": "To Kill a Mockingbird", "published": 1960},
+		{"authorName": "F. Scott Fitzgerald", "bookTitle": "The Great Gatsby", "published": 1925},
+		{"authorName": "Jane Austen", "bookTitle": "Pride and Prejudice", "published": 1813}
+	],
+	"campusData" : [
+		{"campus" : "Davis", "street" : "7899 McLaughlin Blvd", "city" : "Brampton"},
+		{"campus" : "HMC", "street" : "4180 Duke of York Blvd", "city" : "Mississauga"},
+		{"campus" : "Trafalgar", "street" : "1430 Trafalgar Road", "city" : "Oakville"}
+	]
+}
